@@ -1,6 +1,6 @@
 import sys
 
-print ("stylish rabbit")
+print ("stylish hound")
 
 try:
     d = open("styles.txt")
@@ -9,4 +9,6 @@ except:
     sys.exit(0)
 allezeilen = d.readlines()
 d.close()
-print(allezeilen)
+for i in allezeilen:
+    print(i,end ="")
+
