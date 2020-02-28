@@ -1,6 +1,6 @@
 import sys
 
-print ("stylish hound")
+print ("stylish cool hound")
 
 try:
     d = open("styles.txt")
