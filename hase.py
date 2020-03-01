@@ -14,6 +14,7 @@ for i in allezeilen:
     print(i,end ="")
 
 zeile1 = e.readline()
+e.seek(0)
 new = int(zeile1)+1
 print("\nCount:",new)
 e.write(str(new))
